@@ -5,6 +5,6 @@ KinematicAnalysisRAMP.m - [Kinematics] Loads the converted RAMP/RAMPDOWN trials;
 
 EMG_RAMP_preproc.m - [EMG preprocessing] Loads raw EMG together with the segmented kinematics; high-pass + notch filtering, envelope extraction, global and segment-wise spike cleaning, stride and speed segmentation, channel-quality GUI, and per-segment normalisation.
 
-EMG_GroupSyn_NNMF.m - [Synergies] Group-level synergy extraction across subjects via NNMF; VAF sweep and synergy-number selection; cross-segment synergy alignment (Hungarian matching).
+EMG_GroupSyn_NNMF.m - [Synergies] Group-level synergy extraction across subjects via NNMF; VAF sweep and synergy-number selection.
 
-EMG_RAMP_synxsubj.m - [Synergies] Subject-level NNMF synergy extraction and cross-subject organisation, using the same alignment logic.
+EMG_RAMP_synxsubj.m - [Synergies] Subject-level NNMF synergy extractions.
